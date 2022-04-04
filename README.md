@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # `near-sdk-as` Starter Kit
 
 This is a good project to use as a starting point for your AssemblyScript project.
@@ -168,3 +169,7 @@ Please note that, in order to create the AssemblyScript and tests folder structu
 ./assembly/tests/example.spec.ts
 ./assembly/tests/as-pect.d.ts
 ```
+=======
+# Ndc_Practice1
+Ndc Practice 1 ( Benefited from https://www.patika.dev/web3 )
+>>>>>>> 0ce332da182b03e4d69fe8ef8ccd861ae1be2b97
