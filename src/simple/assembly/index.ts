@@ -16,8 +16,9 @@ export function helloWorld(name: string): string {
 
 // return the string 'hello <namearray>' (Task 3)
 export function helloWorld(names: Array<string>): string {
-  return names.map<string>(name => 'hello ' + name).join(` `)
+  return names.map<string>(name => "hello " + name).join(` `)
 }
+
 
 // read the given key from account (contract) storage
 export function read(key: string): string {
