@@ -1,1 +1,1 @@
-Ndc Practice 1 ( Benefited from https://www.patika.dev/web3 )
+Ndc Practices ( Benefited from https://www.patika.dev/web3 )
