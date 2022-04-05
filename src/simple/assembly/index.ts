@@ -1,6 +1,20 @@
 import { storage, Context } from "near-sdk-as"
 
-// return the string 'hello <namearray>'
+
+
+/* // return the string 'hello <Your Name>' (Task 1)
+export function helloWorld(): string {
+  return 'hello <Your Name>'
+} */
+
+
+/* // return the string 'hello' + name (Task 2)
+export function helloWorld(name: string): string {
+  return 'hello ' + name
+} */
+
+
+// return the string 'hello <namearray>' (Task 3)
 export function helloWorld(names: Array<string>): string {
   return names.map<string>(name => 'hello ' + name).join(` `)
 }
