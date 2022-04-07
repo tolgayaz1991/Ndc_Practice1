@@ -14,9 +14,16 @@ export function helloWorld(name: string): string {
 } */
 
 
-// return the string 'hello <namearray>' (Task 3)
+/* // return the string 'hello <namearray>' (Task 3)
 export function helloWorld(names: Array<string>): string {
   return names.map<string>(name => "hello " + name).join(` `)
+} */
+
+
+// return the string via using predecessor (Task 4)
+export function helloWorld(): string {
+  const predecessor = Context.predecessor
+  return 'hello ' + predecessor
 }
 
 
